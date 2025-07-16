@@ -1,0 +1,23 @@
+{
+  "name": "react-foundation",
+  "version": "1.0.0",
+  "description": "this is the react foundation from scratch",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishabh157/react-foundation.git"
+  },
+  "keywords": [],
+  "author": "Rishabh Gour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rishabh157/react-foundation/issues"
+  },
+  "homepage": "https://github.com/Rishabh157/react-foundation#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
