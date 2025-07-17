@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from 'react-dom/client';
 
 {/* 
     <div id="parent">
@@ -11,7 +13,6 @@
         </div>
     </div>
 */}
-
 
 const parent = React.createElement('div',
     { id: 'parent' },
