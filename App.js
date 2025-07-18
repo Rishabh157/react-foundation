@@ -3,15 +3,19 @@ import ReactDOM from 'react-dom/client';
 
 
 
-const heading = React.createElement('h1', { id: 'name' }, "Hello World")
+const TitleHeading = () => <h1>This is going to be a title</h1>
 
 // JSX Heading
+const HeadingComponent = () => (
+    <>
+        <h1>Helllo World From JSX</h1>
+        <TitleHeading />
+    </>
+)
 
-const jsxheading = <h1>Helllo World From JSX</h1>
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
- const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(jsxheading)
+root.render(<HeadingComponent />)
 
 {/* 
     <div id="parent">
